@@ -1,0 +1,63 @@
+<html>
+<head>
+    <title>My Form</title>
+    <link rel="stylesheet" href="registration.css">
+  
+    <style>
+        h1{
+            color: red;
+        }
+    </style>
+</head>
+<body >
+    <form>
+        <fieldset>
+            <legend>
+        <h1 > Registration Form </h1>
+        </legend>
+        
+        Read Only Data
+        <input type="txt" name="t" value="Registration Form" size="15" readonly><br><br>
+        <p>Required Fields Allowed By *</p>
+        *Enter First name
+        <input type="txt" name="f" placeholder="enter here" size="15" title="enter first name" required>&nbsp;&nbsp;&nbsp;&nbsp;
+        *Enter Last name
+        <input type="txt" name="l" placeholder="enter here" size="15" title="enter second name" required><br><br>    
+        *Enter the number
+        <input type="number" name="n" size="15" required> <br><br>
+        *Enter the Password
+        <input type="password" name="p" size="15" required><br><br>
+        *Enter the Email
+        <input type="email" name="e" size="15" required><br><br>
+        Enter the Address:<br>
+        <textarea cols="25" rows="15"> Address:  </textarea><br><br>
+        Enter the Time
+        <input type="time" name="time" size="15">&nbsp;&nbsp;&nbsp;&nbsp;
+        Enter the Date
+        <input type="date" name="date" size="15"><br><br>
+        Select the Gender
+        <input type="radio" name="g">Male
+        <input type="radio" name="g">Female
+        <input type="radio" name="g">Others<br><br>
+        Select the City
+        <select>
+        <option value="">--select city--</option>
+        <option value="B" style="color: blueviolet;">Bijnor</option>
+        <option value="N2">Nehtaur</option>
+        <option value="D">Dhampur</option>
+        <option value="C">Chandpur</option>
+        <option value="M">Merrut</option>
+        </select><br><br>
+        Select the course--<br>
+        <input type="checkbox" name="c language"> C language<br>
+        <input type="checkbox" name="cpp language"> C++ language<br>
+        <input type="checkbox" name="java language"> Java language<br>
+        <input type="checkbox" name="Python language"> Python language<br>
+        <input type="checkbox" name="c# language"> C# language<br><br>
+        Photo: <input type="file"><br><br>
+        <input type="submit" name="submit" >&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="reset" name="reset" >&nbsp;&nbsp;&nbsp;&nbsp;
+
+        </fieldset>
+    </form>
+</body></html>
